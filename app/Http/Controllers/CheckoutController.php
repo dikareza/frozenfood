@@ -466,14 +466,14 @@ class CheckoutController extends Controller
             $trx_id = Input::get('trx_id');
             $status = Input::get('status');
             $tipe = Input::get('tipe');
-            $d = Input::get('d');
+            //$d = Input::get('d');
             //insert value
             $ureturn = new ureturn();
             $ureturn->url_no = $url_no;
             $ureturn->trx_id = $trx_id;
             $ureturn->status = $status;
             $ureturn->tipe = $tipe;
-            $ureturn->d = $d;
+            //$ureturn->d = $d;
             $ureturn->save();
             //update status
             $userid = Auth::user()->id;
@@ -503,14 +503,14 @@ class CheckoutController extends Controller
             $trx_id = Input::get('trx_id');
             $status = Input::get('status');
             $tipe = Input::get('tipe');
-            $d = Input::get('d');
+            //$d = Input::get('d');
             //insert value
             $ureturn = new ureturn();
             $ureturn->url_no = $url_no;
             $ureturn->trx_id = $trx_id;
             $ureturn->status = $status;
             $ureturn->tipe = $tipe;
-            $ureturn->d = $d;
+            //$ureturn->d = $d;
             $ureturn->save();
             //update status
             $userid = Auth::user()->id;
