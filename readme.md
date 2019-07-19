@@ -1,40 +1,38 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## E-commerce Frozen Food
 
-## About Laravel
+Aplikasi e-commerce toko Frozen Food dengan pembayaran payment gateway IPAYMU.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+#### Fitur
+- [x] Register Member
+- [x] Login
+- [x] Keranjang belanja
+- [x] Dukungan pengirian JNE/TIKI
+- [x] Pembayaran mudah dengan IPAYMU
+- [x] Pengaturan akun
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+#### Teknologi
+- [Laravel](https://laravel.com)
+- [PHP](https://php.net)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+#### Demo
+[E-commerce Frozen Food](https://frozen-food.000webhostapp.com/)
 
-## Learning Laravel
+#### Screenshot
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+| Home | Detail produk |
+| :---: | :---: |
+| <a href="./screenshot/1.home.png"> <img src="./screenshot/1.home.png" width="50%"></a> | <a href="screenshot/2.detail_produk.png"> <img src="screenshot/2.detail_produk.png" width="50%"></a>
+| Kerangjang Belanja | Pengiriman |
+| :---: | :---: |
+| <a href="./screenshot/3.cart.png"> <img src="./screenshot/3.cart.png" width="50%"></a> | <a href="screenshot/3.pengiriman.png"> <img src="screenshot/3.pengiriman.png" width="50%"></a>
+| Pembayaran | Halaman IPAYMU |
+| :---: | :---: |
+| <a href="./screenshot/4.konfirmasi_pembayaran.png"> <img src="./screenshot/4.konfirmasi_pembayaran.png" width="50%"></a> | <a href="screenshot/5.login_ipaymu.png"> <img src="screenshot/5.login_ipaymu.png" width="50%"></a>
+| Konfirmasi Transaksi | Transaksi Sukses |
+| :---: | :---: |
+| <a href="./screenshot/6.konfirmasi_transaksi_ipaymu.png"> <img src="./screenshot/6.konfirmasi_transaksi_ipaymu.png" width="50%"></a> | <a href="screenshot/7.transaksi_sukses.png"> <img src="screenshot/7.transaksi_sukses.png" width="50%"></a>
+| Halaman Profil | Riwayat Pembelian |
+| :---: | :---: |
+| <a href="./screenshot/8.halaman_profil.png"> <img src="./screenshot/8.halaman_profil.png" width="50%"></a> | <a href="screenshot/9.riwayat_pembelian.png"> <img src="screenshot/9.riwayat_pembelian.png" width="50%"></a>
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
