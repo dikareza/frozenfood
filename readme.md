@@ -7,7 +7,7 @@ Aplikasi e-commerce toko Frozen Food dengan pembayaran payment gateway IPAYMU.
 - [x] Register Member
 - [x] Login
 - [x] Keranjang belanja
-- [x] Dukungan pengirian JNE/TIKI
+- [x] Dukungan pengiriman JNE/TIKI
 - [x] Pembayaran mudah dengan IPAYMU
 - [x] Pengaturan akun
 
